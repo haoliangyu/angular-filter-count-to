@@ -11,10 +11,6 @@ module.exports = function(grunt) {
                 src: 'src/angular-count-to.js',
                 dest: 'dist/<%= pkg.name %>.min.js'
             }
-        },
-        test: {
-            karmaConfig: 'config/karma.conf.js',
-            unit: ['test/unit/**/*.js']
         }
     });
 
