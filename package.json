@@ -1,6 +1,6 @@
 {
   "name": "angular-filter-count-to",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Angular JS directive for counting to a number over time",
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -8,8 +8,8 @@
   },
   "homepage": "http://pfitzpaddy.github.io/angular-filter-count-to/",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/benzhaomin/angular-filter-count-to.git"
+    "type": "git",
+    "url": "https://github.com/benzhaomin/angular-filter-count-to.git"
   },
   "author": "Brian Matthews",
   "contributors": [

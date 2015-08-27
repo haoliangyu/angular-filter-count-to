@@ -1,13 +1,13 @@
 {
   "name": "angular-filter-count-to",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": [
     "dist/angular-filter-count-to.min.js"
   ],
   "ignore": [
     "node_modules"
   ],
-  "location": "https://github.com/pfitzpaddy/angular-filter-count-to",
+  "location": "https://github.com/benzhaomin/angular-filter-count-to",
   "licence": "MIT",
   "keywords": [
     "angular",
