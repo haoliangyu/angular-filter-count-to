@@ -5,7 +5,6 @@ var countTo = angular.module('countTo', [])
             scope: true,
             link: function (scope, element, attrs) {
 
-                var e = element[0];
                 var num, refreshInterval, duration, steps, step, countTo, value, increment;
 
                 var calculate = function () {
@@ -31,9 +30,9 @@ var countTo = angular.module('countTo', [])
                         if (step >= steps) {
                             $timeout.cancel(scope.timoutId);
                             num = countTo;
-                            e.innerText = scope.filter ? $filter(scope.filter)(countTo, scope.params, scope.fractionSize) : Math.round(countTo);
+                            element.text(scope.filter ? $filter(scope.filter)(countTo, scope.params, scope.fractionSize) : Math.round(countTo));
                         } else {
-                            e.innerText = scope.filter ?  $filter(scope.filter)(num, scope.params, scope.fractionSize) : Math.round(num);
+                            element.text(scope.filter ? $filter(scope.filter)(num, scope.params, scope.fractionSize) : Math.round(num));
                             tick();
                         }
                     }, refreshInterval);
