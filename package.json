@@ -2,6 +2,7 @@
   "name": "angular-filter-count-to",
   "version": "0.0.5",
   "description": "Angular JS directive for counting to a number over time",
+  "main": "src/angular-count-to.js",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-uglify": "~0.2.2"
@@ -14,7 +15,8 @@
   "author": "Brian Matthews",
   "contributors": [
     { "name": "Patrick Fitzgerald" },
-    { "name": "Benjamin Maisonnas" }
+    { "name": "Benjamin Maisonnas" },
+    { "name": "Haoliang Yu" }
   ],
   "license": "MIT",
   "readmeFilename": "README.md"
